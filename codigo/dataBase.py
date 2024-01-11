@@ -6,16 +6,9 @@ def conexionBase():
         #print("INFO - Intentando conexion con la base de datos") 
         conexion = pyodbc.connect(
             'Driver={ODBC Driver 17 for SQL Server};'
-            #'Server=EDUARDO-LAP\SQLEXPRESS;'
             'Server=SQL5110.site4now.net;'
-            #'Server=urban-sports-analytics.database.windows.net;'
-            #'Database=prueba;'
             'Database=db_aa1ec5_proteus;'
-            #'Database=proteus;'
-            #'uid=eduardo;'
             'uid=db_aa1ec5_proteus_admin;'
-            #'uid=proteus-admin;'
-            #'pwd=contra;'
             'pwd=Qg2c}7Zk@a%5zVD&;'
         )
         

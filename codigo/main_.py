@@ -45,4 +45,3 @@ with open(PRODUCTIVIDADPATH,'w',newline='') as csvfile:
     writerCSV.writerow(row)
 extractor.mainExtraccion()
 load.mainCarga()
-#Validar si se puede saber si hay repetidos por dos columnas para asi hacer los registro de los partidos 
